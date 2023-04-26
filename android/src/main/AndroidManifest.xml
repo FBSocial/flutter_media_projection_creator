@@ -4,7 +4,9 @@
     <application>
         <activity
             android:name="im.zego.media_projection_creator.internal.RequestMediaProjectionPermissionActivity"
-            android:theme="@style/transparent_activity">
+            android:theme="@style/transparent_activity"
+            android:launchMode="singleTop">
+
         </activity>
         <service
             android:name=".internal.MediaProjectionService"
